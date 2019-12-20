@@ -6,7 +6,8 @@ This website facilitates the school's need to disseminate information about the 
 These users can easily access important information about the school as a result.
 The webiste enables the school to represent the school well online and reduce the need for leaflet and paper distributions.
 
-UX
+UX:
+
 The website is primarily for those operating outside of the school who have an interest in information about the school and what happens there.
 This website presents important information using a simple and easy to understand set of web pages that are easy to navigate.
 The information provided is clear and to the point, and colourful, simple colours and graphics are used to illustrate the information being provided.
@@ -44,6 +45,11 @@ Repeat the Navingation testing on a selection of devices with differing screen s
 Deployment:
 The project code was developed in Gitpod and deployed to Github using the Git command line.
 The website is hosted on Github Pages. It was a requirement to make the project public in order to host it on Github Pages.
+
+The following commands are used to deploy updates to the website:
+git add (names of the files updated since the last deployment)
+git commit -m (message with details of updates made since the last deployment)
+git push
 
 Credits:
 Media:
