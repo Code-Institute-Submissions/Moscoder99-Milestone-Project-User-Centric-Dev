@@ -1,65 +1,50 @@
 # Milestone-Project-User-Centric-Dev
-One or two paragraphs providing an overview of your project.
 
-Essentially, this part is your sales pitch.
+This website is a prototype or sample of a website serving an individual school.
+
+This website facilitates the school's need to disseminate information about the school to parents, teachers, students and the community.
+These users can easily access important information about the school as a result.
+The webiste enables the school to represent the school well online and reduce the need for leaflet and paper distributions.
 
 UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The website is primarily for those operating outside of the school who have an interest in information about the school and what happens there.
+This website presents important information using a simple and easy to understand set of web pages that are easy to navigate.
+The information provided is clear and to the point, and colourful, simple colours and graphics are used to illustrate the information being provided.
+The website has been developed in a manner ensuring it can be easily read on multiple device types including computer screens, tablets and mobile phones.
+This ensures the website audience can access the information presented in many ways, for example, while at a computer in an office or on a mobile phone using wifi.
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+This school website consists of four distinct features, each captured in a section/page of the website:
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+1. The Home section, which includes the About information and a map and directions to the school
+2. A section on the history of the school and local community.
+3. A section describing some important events in the school's recent history.
+4. A section containing all of the information to contact the school, and the school's opening hours.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Future feature ideas include:
+1. Adding a form for submitting an email.
+2. Adding an idea submission or suggestion button and form.
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Technologies Used:
+The Bootstrap framework was used to provide the majority of the lauout and formatting requirements for this project.
+Font Awesome was used to facilitate the display of two icons on the page footer.
+A local style.css file was used for any formating not provided by Bootstrap, this was mainly to use a wider range of backgroound colours than those available with Bootstrap.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing:
+Navigation has been extensively tested.
+UX has been extentively testing:
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Test approach for Navigation testing:
+On each page of the website, click on all of the navigation items in the header and ensure you are brought to the correct page.
+On each page of the website, click on all of the navigation items in the footer and ensure you are brought to the correct page.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Test approach for UX testing:
+Repeat the Navingation testing on a selection of devices with differing screen sizes.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Deployment:
+The project code was developed in Gitpod and deployed to Github using the Git command line.
+The website is hosted on Github Pages. It was a requirement to make the project public in order to host it on Github Pages.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+Credits:
+Media:
+The photos used in this site were obtained from dreamstime.com and freeimages.com
