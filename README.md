@@ -47,9 +47,9 @@ The project code was developed in Gitpod and deployed to Github using the Git co
 The website is hosted on Github Pages. It was a requirement to make the project public in order to host it on Github Pages.
 
 The following commands are used to deploy updates to the website:
-git add (names of the files updated since the last deployment)
-git commit -m (message with details of updates made since the last deployment)
-git push
+1. git add (names of the files updated since the last deployment)
+2. git commit -m (message with details of updates made since the last deployment)
+3. git push
 
 Credits:
 Media:
