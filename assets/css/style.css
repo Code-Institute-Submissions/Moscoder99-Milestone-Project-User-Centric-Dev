@@ -1,19 +1,37 @@
+/* Fix for white space/padding outside the body */
+/* https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .title-text {
     font-family: 'Pangolin', cursive;
-    font-size: 50px;
+    font-size: 35px;
+    color: #0e5761;
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading-text {
+    font-family: 'Pangolin', cursive;
+    font-size: 30px;
+    color: #0e5761;
+    text-align: left;
 }
 
 /* If the screen size is 300px wide or more, set the font-size of <div> to 75px */
-@media screen and (min-width: 300px) {
+@media only screen and (min-width: 768px) {
   .title-text {
-    font-size: 58px;
+    font-size: 60px;
   }
-}
-
-/* If the screen size is 600px wide or more, set the font-size of <div> to 75px */
-@media screen and (min-width: 600px) {
-  .title-text {
-    font-size: 75px;
+  .heading-text {
+    font-size: 50px;
   }
 }
 
@@ -46,3 +64,5 @@
 .page-background {
     background-color: #e6f8fa
 }
+
+.border-3 { border-width:5px !important; }
