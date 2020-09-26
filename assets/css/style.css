@@ -8,6 +8,11 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    /* min-height: 100%;
+    position: relative; */
+    background-position: center;
+    background-image: url("clark.png");
+    background-size: cover;
 }
 
 .title-text {
@@ -23,6 +28,11 @@ html,body
     font-size: 30px;
     color: #0e5761;
     text-align: left;
+}
+
+.paragraph-text {
+/*     font-family: 'Roboto', sans-serif; */
+    font-family: 'Raleway', sans-serif;
 }
 
 /* If the screen size is 300px wide or more, set the font-size of <div> to 75px */
@@ -66,3 +76,11 @@ html,body
 }
 
 .border-3 { border-width:5px !important; }
+
+/* https://stackoverflow.com/questions/49183870/sticky-footer-bootstrap-4 */
+
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
