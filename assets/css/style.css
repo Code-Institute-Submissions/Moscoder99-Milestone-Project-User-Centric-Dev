@@ -89,3 +89,11 @@ html,body
 .content-wrap {
   padding-bottom: 2rem;   /* Footer height */
 }
+
+.border-corner {
+    border-radius: 25px;
+}
+
+.contacts-line {
+    line-height: 250%;
+}
