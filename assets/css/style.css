@@ -10,6 +10,14 @@ html,body
     overflow-x: hidden;
 }
 
+/* Setting the background colour across all pages */
+
+.page-background {
+    background-color: hsl(186, 67%, 94%)
+}
+
+/* Setting the font for the website for page titles across all pages */
+
 .title-text {
     font-family: 'Pangolin', cursive;
     font-size: 35px;
@@ -18,6 +26,8 @@ html,body
     font-weight: bold;
 }
 
+/* Setting the font for the website for headings across all pages */
+
 .heading-text {
     font-family: 'Pangolin', cursive;
     font-size: 30px;
@@ -25,12 +35,16 @@ html,body
     text-align: left;
 }
 
+/* Setting the font for the website for paragraph text across all pages */
+
 .paragraph-text {
 /*     font-family: 'Roboto', sans-serif; */
     font-family: 'Raleway', sans-serif;
     overflow-wrap: break-word;
     font-size: 15px;
 }
+
+/* Media queries for fonts, mobile first approach therefore these settings are for larger screens */
 
 /* If the screen size is 768px wide or more, settings */
 @media only screen and (min-width: 768px) {
@@ -45,13 +59,15 @@ html,body
   }
 }
 
-.content-text {}
-    font-family: 'Roboto', sans-serif;
+/* Setting the height and width of images to 100% for school photos */
+
+.schoolphoto {
+   height: 100%;
+   width: 100%;
 }
 
-.schoolname {
-    font-family: "Times New Roman", Times, serif;
-}
+/* Setting the background colour for the events and fundraising page text sections */
+
 .buddysystem {
     background-color: #32a8a0
 }
@@ -72,13 +88,14 @@ html,body
     min-height: 100%
 }
 
-.page-background {
-    background-color: hsl(186, 67%, 94%)
-}
+/* Settings the border width for the Contacts page border */
 
-.border-3 { border-width:5px !important; }
+.contacts-border { border-width:5px !important; }
+
+
 
 /* https://stackoverflow.com/questions/49183870/sticky-footer-bootstrap-4 */
+/* Ensuring the footer of the Contacts page always sticks to the bottom of the page */
 
 .bottomfooter {
   position: absolute;
@@ -93,6 +110,8 @@ html,body
 .border-corner {
     border-radius: 25px;
 }
+
+/* Setting the line height for the Contacts page border for better spacing */
 
 .contacts-line {
     line-height: 250%;
