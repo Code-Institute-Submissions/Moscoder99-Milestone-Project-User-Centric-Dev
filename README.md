@@ -46,9 +46,9 @@ St. Fictional’s school website presents important information using a simple a
 | 8  | As a member of the community                | I want to be able to read about the history of the school                              | so that I can understand how it relates to the history of the community and region
 | 9  | As the School Board, Principal or Teacher   | I want to provide an overview of the school's background and history                   | so that I can provide a service to the Community strengthen community ties
 |    |                                             | **Contact details - Who to contact and how to contact them**                           | 
-| 11 | As a parent of a child attending the school | I want to easily find the school's contact details                                     | so that I can quickly contact the school when required
-| 12 | As a parent of a child attending the school | I want the school's contact details to be uptodate and accurate                        | so that I can quickly contact the school when required
-| 13 | As a member of the community                | I want to easily find the school's contact details                                     | so that I can contact the school for any other information I may require
+| 10 | As a parent of a child attending the school | I want to easily find the school's contact details                                     | so that I can quickly contact the school when required
+| 11 | As a parent of a child attending the school | I want the school's contact details to be uptodate and accurate                        | so that I can quickly contact the school when required
+| 12 | As a member of the community                | I want to easily find the school's contact details                                     | so that I can contact the school for any other information I may require
 
 ------
 ## Features:
